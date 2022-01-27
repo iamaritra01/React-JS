@@ -1,16 +1,19 @@
 import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
 import * as cal from "./Calculator/Calc";
 import Card from "./Netflix/Card";
 import Hook from "./Hooks/StateChange";
 import FetchCurrTime from "./FetchTime/FetchCurrTime";
 // import DigitalClock from "./DigitalClock";
-import Form from './Forms';
+// import Form from './Forms/Forms';
+import Accordian from "./Accordian";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-
-    <Form />
+      <Accordian />
+       
+    {/* <Form /> */}
     
     {/* <FetchCurrTime /> */
 }
